@@ -1,8 +1,9 @@
 require "color_text"
-puts "HEY EVERYBODY".purple
-puts "Hi Dr.Nick!".green
-puts "Today we're going to store your input for future use!".purple
-puts "Please enter your text input or just press enter to continue".neon
+
+puts "HEY EVERYBODY".green
+puts "Hi Dr.Nick!".blue
+puts "Today we're going to store your input for future use!".green
+puts "Please enter your text input or just press enter to continue".purple
 
 @input = gets.chomp
 
@@ -10,7 +11,7 @@ puts "Type:
 'add' - to add input to file
 'save' - to save input to file
 'read' - to read the current file
-'source' - view the source code in the terminal"
+'source' - view the source code in the terminal".red
 
 command = gets.chomp
 
